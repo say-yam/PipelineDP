@@ -3,4 +3,5 @@ from pipeline_dp.dp_engine import AggregateParams
 from pipeline_dp.dp_engine import DataExtractors
 from pipeline_dp.dp_engine import Metrics
 from pipeline_dp.dp_engine import DPEngine
-from pipeline_dp.pipeline_operations import BeamOperations
+from pipeline_dp.dp_engine import ComputedMetrics
+from pipeline_dp.pipeline_operations import PipelineOperations, BeamOperations

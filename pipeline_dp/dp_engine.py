@@ -60,6 +60,15 @@ class DataExtractors:
   value_extractor: Callable = None
 
 
+@dataclass
+class ComputedMetrics:
+  count: float = None
+  private_id_count: float = None
+  sum: float = None
+  mean: float = None
+  var: float = None
+
+
 class DPEngine:
   """Performs DP aggregations."""
 
